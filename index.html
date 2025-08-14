@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0f14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Portfolio - Naufal Fadhil Hafizh</title>
+  <meta name="description" content="Portfolio kreatif: videografi, fotografi, dan desain.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Welcome Animation Overlay -->
+  <div id="welcome-overlay" class="welcome-overlay">
+    <div class="welcome-content">
+      <div class="welcome-avatar">
+        <img src="Photo/Foto Profile.png" alt="Profile Photo" id="welcome-avatar-img">
+      </div>
+      <h1 class="welcome-title">Naufal Fadhil Hafizh</h1>
+      <p class="welcome-subtitle">Professional Creative</p>
+      <div class="welcome-loading">
+        <div class="loading-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">
+          <img src="Photo/Foto Profile.png" alt="Profile Photo" id="header-avatar-img">
+        </div>
+        <div class="identity">
+          <h1 class="name">Naufal Fadhil Hafizh</h1>
+          <p class="title">Design Creator · Videographer · Photographer</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="themeToggle" class="button ghost" aria-pressed="false" aria-label="Toggle tema gelap/terang">
+          <!-- Moon icon -->
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" stroke="currentColor" stroke-width="1.8" fill="none"/>
+          </svg>
+          <!-- Sun icon -->
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="1.8"/>
+          </svg>
+        </button>
+        <button id="contactOpen" class="button primary" aria-haspopup="dialog" aria-controls="contact-modal">Hubungi</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Navigasi portfolio">
+    <div class="container tabs-inner">
+      <button class="tab active" role="tab" aria-selected="true" data-section="cv">CV & RESUME</button>
+      <button class="tab" role="tab" aria-selected="false" data-section="portfolio">PORTOFOLIO</button>
+      <button class="tab" role="tab" aria-selected="false" data-section="skills">SKILLS</button>
+      <button class="tab" role="tab" aria-selected="false" data-section="contact">SOCIAL MEDIA</button>
+    </div>
+  </nav>
+
+  <main id="main" class="container main">
+    <!-- CV Section -->
+    <section id="cv" class="section active" tabindex="-1" aria-labelledby="cv-title">
+      <h2 id="cv-title" class="section-title">Curriculum Vitae</h2>
+      <div id="cv-root"></div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section" tabindex="-1" aria-labelledby="portfolio-title">
+      <h2 id="portfolio-title" class="section-title">Creative Portfolio</h2>
+
+      <div class="grid three portfolio-grid">
+        <button class="card portfolio-card" data-type="photo">
+          <div class="media cover"><img class="logo" src="Photo\photography.png" alt="Logo Photography"></div>
+          <div class="card-body">
+            <div class="card-title">Photography Collection</div>
+            <p>A curated selection of landscape, portrait, and street photography works showcasing creativity, composition, and storytelling through visuals.</p>
+          </div>
+        </button>
+
+        <button class="card portfolio-card" data-type="video">
+          <div class="media cover"><img class="logo" src="Photo\camera.png" alt="Logo Videography"></div>
+          <div class="card-body">
+            <div class="card-title">Videography Projects</div>
+            <p>Documentary and promotional video productions highlighting events, stories, and brand messages through cinematic visuals.</p>
+          </div>
+        </button>
+
+        <button class="card portfolio-card" data-type="design">
+          <div class="media cover"><img class="logo" src="Photo\illustration.png" alt="Logo Design"></div>
+          <div class="card-body">
+            <div class="card-title">Poster & Graphic Design</div>
+            <p>Design of event posters, flyers, and branding materials to effectively communicate ideas and enhance visual identity.</p>
+          </div>
+        </button>
+      </div>
+
+      <!-- Inline results container -->
+      <div id="portfolio-results" class="portfolio-results" aria-live="polite"></div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" tabindex="-1" aria-labelledby="skills-title">
+      <h2 id="skills-title" class="section-title">Creative Skills</h2>
+
+      <div class="grid three">
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">📷</div>
+          <div class="label">Photography</div>
+          <p class="muted">Portrait, Landscape, Street, Product, Event</p>
+        </div>
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">🎬</div>
+          <div class="label">Videography</div>
+          <p class="muted">Cinematic, Documentary, Coverage, Storytelling</p>
+        </div>
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">✂️</div>
+          <div class="label">Editor</div>
+          <p class="muted">Premiere Pro, Resolve, Color Grading, Motion</p>
+        </div>
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">🎨</div>
+          <div class="label">Design Creator</div>
+          <p class="muted">Photoshop, Illustrator, Poster, Logo, Branding</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" tabindex="-1" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Connect With Me</h2>
+
+      <div class="grid three contact-cards">
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">📸</div>
+          <div class="label">Instagram</div>
+          <a class="link" href="https://instagram.com/upallee" target="_blank" rel="noopener">@upallee</a>
+        </div>
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">💼</div>
+          <div class="label">LinkedIn</div>
+          <a class="link" href="https://linkedin.com/in/naufalfh19" target="_blank" rel="noopener">linkedin.com/in/naufalfh19</a>
+        </div>
+        <div class="card center">
+          <div class="icon xl" aria-hidden="true">🎵</div>
+          <div class="label">TikTok</div>
+          <a class="link" href="https://tiktok.com/@upallee" target="_blank" rel="noopener">@upallee</a>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Contact Modal -->
+  <div id="contact-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="backdrop" data-close></div>
+    <div class="dialog" role="document">
+      <button class="close" aria-label="Tutup" data-close>×</button>
+      <h3 class="dialog-title">Hubungi Saya</h3>
+      <div class="dialog-body">
+        <div class="grid two contact-cards">
+          <div class="card center">
+            <div class="icon xl" aria-hidden="true">📧</div>
+            <div class="label">Email</div>
+            <a class="link" href="https://mail.google.com/mail/?view=cm&fs=1&to=hafizhnaufal85@gmail.com" target="_blank" rel="noopener">Tulis Email</a>
+          </div>
+          <div class="card center">
+            <div class="icon xl" aria-hidden="true">📸</div>
+            <div class="label">Instagram</div>
+            <a class="link" href="https://www.instagram.com/upallee/" target="_blank" rel="noopener">Buka Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Viewer Modal -->
+  <div id="image-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="backdrop" data-close></div>
+    <div class="dialog image-dialog" role="document">
+      <button class="close" aria-label="Tutup" data-close>×</button>
+      <div class="image-modal-content">
+        <img id="image-modal-img" alt="" />
+        <div class="image-description">
+          <h4 id="image-modal-title"></h4>
+          <p id="image-modal-desc"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Viewer Modal -->
+  <div id="video-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="backdrop" data-close></div>
+    <div class="dialog video-dialog" role="document">
+      <button class="close" aria-label="Tutup" data-close>×</button>
+      <div class="video-modal-content">
+        <iframe id="video-modal-iframe" frameborder="0" allowfullscreen></iframe>
+        <div class="video-description">
+          <h4 id="video-modal-title"></h4>
+          <p id="video-modal-desc"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js" defer></script>
+  <noscript>Aktifkan JavaScript untuk pengalaman terbaik.</noscript>
+</body>
+</html> 
