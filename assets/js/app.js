@@ -183,288 +183,159 @@ const contactLinks = {
 };
 /* === SAMPAI SINI === */
 
+// Portfolio galleries data
 const galleries = {
   photo: {
-    title: 'Photography Collection',
-    categories: {
-      event: {
-        title: 'Event Documentation',
+    title: 'Photography',
+    categories: [
+      {
+        name: 'Event Documentation',
         items: [
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_1190.png', 
-            alt: 'Event Photo 1',
-            title: 'Event Documentation 1',
-            description: 'Dokumentasi acara yang menangkap momen-momen penting dan suasana yang dinamis.'
+          {
+            src: 'Photo/Photography/DSC_1190.png',
+            alt: 'Event Photography',
+            title: 'Graduation Ceremony',
+            location: 'Universitas Brawijaya, Malang',
+            camera: 'Canon EOS R6',
+            lens: 'RF 24-70mm f/2.8L IS USM',
+            settings: 'f/2.8, 1/200s, ISO 400',
+            description: 'Capturing the emotional moments of graduation day. The ceremony was held in the main auditorium with beautiful natural lighting streaming through the windows. I focused on candid expressions and the interaction between graduates and their families.\n\nThe challenge was to maintain consistent exposure while moving between different lighting conditions throughout the venue. I used a combination of natural light and subtle fill flash to ensure all subjects were properly illuminated.'
           },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/IMG_9000.png', 
-            alt: 'Event Photo 2',
-            title: 'Event Documentation 2',
-            description: 'Momentum spesial dari berbagai acara yang telah didokumentasikan.'
+          {
+            src: 'Photo/event2.jpg',
+            alt: 'Corporate Event',
+            title: 'Tech Conference 2024',
+            location: 'Jakarta Convention Center',
+            camera: 'Sony A7 III',
+            lens: 'FE 70-200mm f/2.8 GM OSS',
+            settings: 'f/2.8, 1/160s, ISO 800',
+            description: 'Documenting the annual technology conference featuring keynote speakers and networking sessions. The event spanned three days with various workshops and panel discussions.\n\nI captured both the formal presentations and the informal networking moments, ensuring a comprehensive visual story of the entire conference experience.'
           }
         ]
       },
-      portrait: {
-        title: 'Portrait Photography',
+      {
+        name: 'Portrait Photography',
         items: [
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_8541.png', 
-            alt: 'Portrait 1',
-            title: 'Portrait Photography 1',
-            description: 'Fotografi portrait yang menangkap ekspresi dan karakter subjek.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_8601.png', 
-            alt: 'Portrait 2',
-            title: 'Portrait Photography 2',
-            description: 'Potret yang menampilkan keindahan dan kepribadian seseorang.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_8690.png', 
-            alt: 'Portrait 3',
-            title: 'Portrait Photography 3',
-            description: 'Fotografi portrait dengan komposisi dan pencahayaan yang menarik.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/Azfa.jpg', 
-            alt: 'Portrait 2',
-            title: 'Portrait Photography 2',
-            description: 'Potret yang menampilkan keindahan dan kepribadian seseorang.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/Wawe.jpg', 
-            alt: 'Portrait 2',
-            title: 'Portrait Photography 2',
-            description: 'Potret yang menampilkan keindahan dan kepribadian seseorang.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/Sewe.jpg', 
-            alt: 'Portrait 2',
-            title: 'Portrait Photography 2',
-            description: 'Potret yang menampilkan keindahan dan kepribadian seseorang.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/mul.jpg', 
-            alt: 'Portrait 2',
-            title: 'Portrait Photography 2',
-            description: 'Potret yang menampilkan keindahan dan kepribadian seseorang.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/Rere.jpg', 
-            alt: 'Portrait 2',
-            title: 'Portrait Photography 2',
-            description: 'Potret yang menampilkan keindahan dan kepribadian seseorang.'
-          },
-        ]
-      },
-      product: {
-        title: 'Product Photography',
-        items: [
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_7882.png', 
-            alt: 'Product Photo 1',
-            title: 'Product Photography 1',
-            description: 'Fotografi produk yang menampilkan detail dan kualitas dengan baik.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_7899.png', 
-            alt: 'Product Photo 2',
-            title: 'Product Photography 2',
-            description: 'Komposisi produk yang menarik dengan pencahayaan yang tepat.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_7910.png', 
-            alt: 'Product Photo 2',
-            title: 'Product Photography 2',
-            description: 'Komposisi produk yang menarik dengan pencahayaan yang tepat.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_6796.png', 
-            alt: 'Product Photo 2',
-            title: 'Product Photography 2',
-            description: 'Komposisi produk yang menarik dengan pencahayaan yang tepat.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/DSC_6822.png', 
-            alt: 'Product Photo 2',
-            title: 'Product Photography 2',
-            description: 'Komposisi produk yang menarik dengan pencahayaan yang tepat.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/khaf1.jpg', 
-            alt: 'Product Photo 2',
-            title: 'Product Photography 2',
-            description: 'Komposisi produk yang menarik dengan pencahayaan yang tepat.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/khaf2.jpg', 
-            alt: 'Product Photo 2',
-            title: 'Product Photography 2',
-            description: 'Komposisi produk yang menarik dengan pencahayaan yang tepat.'
+          {
+            src: 'Photo/portrait1.jpg',
+            alt: 'Professional Portrait',
+            title: 'Executive Headshot',
+            location: 'Studio Malang',
+            camera: 'Canon EOS R5',
+            lens: 'RF 85mm f/1.2L USM',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
           }
         ]
       },
-      landscape: {
-        title: 'Landscape & Street Photography',
+      {
+        name: 'Product Photography',
         items: [
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/street1.jpg', 
-            alt: 'Landscape 1',
-            title: 'Landscape Photography 1',
-            description: 'Fotografi landscape yang menangkap keindahan alam dan pemandangan.'
-          },
-          { 
-            type: 'img', 
-            src: 'Photo/Photography/street2.jpg', 
-            alt: 'Street 1',
-            title: 'Street Photography 1',
-            description: 'Fotografi jalanan yang menangkap kehidupan urban dan momen sehari-hari.'
+          {
+            src: 'Photo/product1.jpg',
+            alt: 'Product Shot',
+            title: 'Artisan Coffee Beans',
+            location: 'Home Studio',
+            camera: 'Fujifilm X-T4',
+            lens: 'XF 60mm f/2.4 Macro',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'Product photography for local coffee roaster showcasing their premium single-origin beans. The setup used natural window lighting with reflectors to fill shadows.\n\nI arranged the beans in an artistic composition that highlights their texture and color variations, while maintaining a clean, commercial aesthetic suitable for marketing materials.'
           }
         ]
-      }
-    }
-  },
-  video: {
-    title: 'Videography Projects',
-    items: [
-      { 
-        type: 'youtube', 
-        src: 'https://www.youtube.com/embed/sZmgDNARSPo?si=zPB3JwjoZ_C0osx0', 
-        title: 'Project 1',
-        description: 'Deskripsi video YouTube project pertama.'
       },
-      { 
-        type: 'youtube', 
-        src: 'https://www.youtube.com/embed/4GbYnItH36c?si=BuI3GbyK9fQ0v0Po', 
-        title: 'Project 1',
-        description: 'Deskripsi video YouTube project pertama.'
-      },
-      { 
-        type: 'tiktok', 
-        src: 'https://www.tiktok.com/@upallee/video/6988842951258541338', 
-        title: 'Project 2',
-        description: 'Deskripsi video TikTok project kedua.'
-      },
-      { 
-        type: 'instagram', 
-        src: 'https://www.instagram.com/p/CRadkRspzoA/embed/', 
-        title: 'Project 3',
-        description: 'Deskripsi video Instagram Reels project ketiga.'
+      {
+        name: 'Landscape & Street',
+        items: [
+          {
+            src: 'Photo/landscape1.jpg',
+            alt: 'Mountain Landscape',
+            title: 'Sunrise at Bromo',
+            location: 'Mount Bromo, East Java',
+            camera: 'Nikon Z6',
+            lens: 'Z 14-30mm f/4 S',
+            settings: 'f/8, 1/15s, ISO 100',
+            description: 'Capturing the magical sunrise over Mount Bromo crater. The scene was photographed during the golden hour when the light was soft and warm.\n\nI used a tripod for the long exposure to capture the movement of the clouds and ensure sharp focus throughout the frame. The composition follows the rule of thirds with the crater positioned at the intersection points.'
+          }
+        ]
       }
     ]
   },
   design: {
-    title: 'Poster & Graphic Design',
+    title: 'Design',
     items: [
-      { 
-        type: 'img', 
-        src: 'Photo/Design/DUA.png', 
-        alt: 'Poster 1',
-        title: 'Judul Poster 1',
-        description: 'Deskripsi poster event pertama.'
+      {
+        src: 'Photo/design1.jpg',
+        alt: 'Brand Identity Design',
+        title: 'Coffee Shop Brand Identity',
+        category: 'Brand Identity',
+        year: '2024',
+        tools: 'Adobe Illustrator, Photoshop, Figma',
+        description: 'Complete brand identity design for a local coffee shop chain. The project included logo design, color palette, typography, and brand guidelines.\n\nThe design concept revolves around the warmth and comfort of coffee culture, using earthy tones and organic shapes. The logo incorporates coffee bean elements with modern typography for a contemporary feel.',
+        objective: 'Create a memorable brand identity that differentiates the coffee shop from competitors while appealing to both young professionals and coffee enthusiasts. The design needed to work across various applications including signage, packaging, and digital platforms.'
       },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/POSTERKJO.png', 
-        alt: 'Poster 2',
-        title: 'Judul Poster 2',
-        description: 'Deskripsi poster event kedua.'
+      {
+        src: 'Photo/design2.jpg',
+        alt: 'UI/UX Design',
+        title: 'E-commerce Mobile App',
+        category: 'UI/UX Design',
+        year: '2023',
+        tools: 'Figma, Adobe XD, Principle',
+        description: 'Mobile app design for an e-commerce platform specializing in handmade crafts. The design focuses on user experience and easy navigation.\n\nThe interface uses a clean, minimalist approach with intuitive icons and clear call-to-action buttons. User research informed the design decisions, ensuring the app meets the needs of both buyers and sellers.',
+        objective: 'Design an intuitive and engaging mobile shopping experience that increases user engagement and conversion rates. The app should be accessible to users of all ages and technical abilities.'
       },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/Basket.png', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
+      {
+        src: 'Photo/design3.jpg',
+        alt: 'Social Media Design',
+        title: 'Instagram Campaign Design',
+        category: 'Social Media Design',
+        year: '2024',
+        tools: 'Adobe Photoshop, Canva, Figma',
+        description: 'Social media campaign design for a sustainable fashion brand. The campaign included Instagram posts, stories, and carousel designs.\n\nEach design maintains brand consistency while adapting to different social media formats. The visual style emphasizes sustainability and eco-friendly fashion choices.',
+        objective: 'Increase brand awareness and engagement on Instagram through visually appealing content that aligns with the brand\'s sustainable values. The campaign should encourage user interaction and sharing.'
+      }
+    ]
+  },
+  video: {
+    title: 'Video',
+    items: [
+      {
+        src: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        alt: 'YouTube Video',
+        title: 'Travel Vlog - Bali Adventure',
+        type: 'youtube'
       },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo1.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
+      {
+        src: 'https://www.tiktok.com/@user/video/1234567890',
+        alt: 'TikTok Video',
+        title: 'Quick Photography Tips',
+        type: 'tiktok'
       },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo2.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
-      },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo3.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
-      },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo4.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
-      },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo5.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
-      },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo6.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
-      },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo7.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
-      },
-      { 
-        type: 'img', 
-        src: 'Photo/Design/typo8.jpg', 
-        alt: 'Poster 3',
-        title: 'Judul Poster 3',
-        description: 'Deskripsi poster event ketiga.'
+      {
+        src: 'https://www.instagram.com/p/ABC123/',
+        alt: 'Instagram Video',
+        title: 'Behind the Scenes',
+        type: 'instagram'
       }
     ]
   }
 };
 
-function bindImagePreview(container) {
-  $$('.gallery-grid img', container).forEach(img => {
-    img.style.cursor = 'zoom-in';
-    img.addEventListener('click', () => {
-      const item = findPortfolioItem(img.src);
-      if (item) {
-        openImageModal(img.src, img.alt || '', item.title || '', item.description || '');
-      }
-    }); 
+function bindImagePreview() {
+  const images = document.querySelectorAll('.gallery-item');
+  images.forEach(img => {
+    // Remove existing listeners to prevent duplicates
+    img.removeEventListener('click', handleImageClick);
+    img.addEventListener('click', handleImageClick);
   });
+}
+
+// Handle image click
+function handleImageClick(event) {
+  const img = event.target;
+  const item = findPortfolioItem(img.src);
+  if (item) {
+    openImageModal(img.src, img.alt || '', item.title || '', item);
+  }
 }
 
 function bindVideoPreview(container) {
@@ -507,17 +378,17 @@ function bindVideoPreview(container) {
   });
 }
 
+// Find portfolio item by source
 function findPortfolioItem(src) {
-  // Search through all gallery categories and items
-  for (const [galleryKey, gallery] of Object.entries(galleries)) {
+  for (const [type, gallery] of Object.entries(galleries)) {
     if (gallery.categories) {
       // For photography with categories
-      for (const [categoryKey, category] of Object.entries(gallery.categories)) {
+      for (const category of gallery.categories) {
         const item = category.items.find(item => item.src === src);
         if (item) return item;
       }
     } else if (gallery.items) {
-      // For video and design galleries
+      // For other galleries (design, video)
       const item = gallery.items.find(item => item.src === src);
       if (item) return item;
     }
@@ -583,142 +454,88 @@ function initVideoModal() {
   });
 }
 
+// Render portfolio results inline
 function renderResultsInline(type) {
-  const container = $('#portfolio-results');
+  const resultsContainer = document.getElementById('portfolio-results');
+  if (!resultsContainer) return;
+  
+  resultsContainer.innerHTML = '';
+  
   const data = galleries[type];
-  if (!container || !data) return;
-
-  container.innerHTML = '';
-
-  const title = document.createElement('h3');
-  title.className = 'section-title reveal';
-  title.textContent = data.title;
-
-  container.appendChild(title);
-
-  // Handle photography categories
+  if (!data) return;
+  
   if (type === 'photo' && data.categories) {
-    Object.entries(data.categories).forEach(([categoryKey, categoryData], categoryIndex) => {
+    // Handle photography categories
+    data.categories.forEach((category, categoryIndex) => {
       const categorySection = document.createElement('div');
       categorySection.className = 'category-section reveal';
-      categorySection.style.animationDelay = `${categoryIndex * 100}ms`;
-
+      categorySection.style.animationDelay = `${categoryIndex * 0.1}s`;
+      
       const categoryTitle = document.createElement('h4');
       categoryTitle.className = 'category-title';
-      categoryTitle.textContent = categoryData.title;
-
+      categoryTitle.textContent = category.name;
+      
       const grid = document.createElement('div');
       grid.className = 'gallery-grid';
-
-      categoryData.items.forEach((item, idx) => {
-        let node;
-        if (item.type === 'img') {
-          node = document.createElement('img');
-          node.src = item.src;
-          node.alt = item.alt || '';
-          node.style.cursor = 'zoom-in';
-          
-          // Add click event directly when creating the image
-          node.addEventListener('click', () => {
-            openImageModal(item.src, item.alt || '', item.title || '', item.description || '');
-          });
-          
-        } else if (item.type === 'youtube') {
-          node = document.createElement('iframe');
-          node.src = item.src;
-          node.title = item.title || '';
-          node.frameBorder = '0';
-          node.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-          node.allowFullscreen = true;
-        } else if (item.type === 'tiktok') {
-          // Create video cover for TikTok with actual thumbnail
-          node = document.createElement('div');
-          node.className = 'video-cover tiktok-cover';
-          node.style.cursor = 'pointer';
-          
-          // Get TikTok video ID and create thumbnail URL
-          const videoId = item.src.split('/video/')[1]?.split('?')[0];
-          const thumbnailUrl = videoId ? `https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/${videoId}?x-expires=1234567890&x-signature=abc123` : '';
-          
-          node.innerHTML = `
-            <img src="${thumbnailUrl}" alt="TikTok Video Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
-            <div class="cover-overlay">
-              <div class="play-icon">▶</div>
-              <div class="platform-badge">🎵 TikTok</div>
-            </div>
-          `;
-          
-          node.addEventListener('click', () => {
-            window.open(item.src, '_blank');
-          });
-          
-        } else if (item.type === 'instagram') {
-          // Create video cover for Instagram with actual thumbnail
-          node = document.createElement('div');
-          node.className = 'video-cover instagram-cover';
-          node.style.cursor = 'pointer';
-          
-          // Get Instagram post ID and create thumbnail URL
-          const postId = item.src.split('/p/')[1]?.split('/')[0];
-          const thumbnailUrl = postId ? `https://www.instagram.com/p/${postId}/media/?size=t` : '';
-          
-          node.innerHTML = `
-            <img src="${thumbnailUrl}" alt="Instagram Video Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
-            <div class="cover-overlay">
-              <div class="play-icon">▶</div>
-              <div class="platform-badge">📸 Instagram</div>
-            </div>
-          `;
-          
-          node.addEventListener('click', () => {
-            window.open(item.src, '_blank');
-          });
-        }
-        if (!node) return;
-        node.style.animationDelay = `${Math.min(idx * 80, 400)}ms`;
-        node.classList.add('reveal');
-        grid.appendChild(node);
-      });
-
-      categorySection.appendChild(categoryTitle);
-      categorySection.appendChild(grid);
-      container.appendChild(categorySection);
-    });
-  } else {
-    // Handle other gallery types (video, design)
-    const grid = document.createElement('div');
-    grid.className = 'gallery-grid reveal';
-
-    data.items.forEach((item, idx) => {
-      let node;
-      if (item.type === 'img') {
-        node = document.createElement('img');
+      
+      category.items.forEach((item, idx) => {
+        // Create image element
+        const node = document.createElement('img');
         node.src = item.src;
         node.alt = item.alt || '';
+        node.className = 'gallery-item';
         node.style.cursor = 'zoom-in';
+        node.style.animationDelay = `${(categoryIndex * 0.1) + (idx * 0.05)}s`;
+        
+        console.log(`Creating image for item ${idx}:`, { src: item.src, title: item.title });
         
         // Add click event directly when creating the image
-        node.addEventListener('click', () => {
-          openImageModal(item.src, item.alt || '', item.title || '', item.description || '');
+        node.addEventListener('click', (event) => {
+          console.log('=== IMAGE CLICKED ===');
+          console.log('Event:', event);
+          console.log('Target:', event.target);
+          console.log('Item data:', item);
+          console.log('Calling openImageModal with:', { src: item.src, alt: item.alt, title: item.title, item });
+          openImageModal(item.src, item.alt || '', item.title || '', item);
         });
         
-      } else if (item.type === 'youtube') {
-        node = document.createElement('iframe');
-        node.src = item.src;
-        node.title = item.title || '';
-        node.frameBorder = '0';
-        node.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-        node.allowFullscreen = true;
+        grid.appendChild(node);
+      });
+      
+      categorySection.appendChild(categoryTitle);
+      categorySection.appendChild(grid);
+      resultsContainer.appendChild(categorySection);
+    });
+  } else {
+    // Handle other gallery types (design, video)
+    const grid = document.createElement('div');
+    grid.className = 'gallery-grid';
+    
+    data.items.forEach((item, idx) => {
+      let node;
+      
+      if (item.type === 'youtube') {
+        // YouTube video
+        node = document.createElement('div');
+        node.className = 'video-cover youtube-cover';
+        node.style.cursor = 'pointer';
+        node.innerHTML = `
+          <iframe src="${item.src}" frameborder="0" allowfullscreen></iframe>
+          <div class="cover-overlay">
+            <div class="play-icon">▶</div>
+            <div class="platform-badge">📺 YouTube</div>
+          </div>
+        `;
+        node.addEventListener('click', () => {
+          openVideoModal(item.src, item.title || '');
+        });
       } else if (item.type === 'tiktok') {
-        // Create video cover for TikTok with actual thumbnail
+        // TikTok video
         node = document.createElement('div');
         node.className = 'video-cover tiktok-cover';
         node.style.cursor = 'pointer';
-        
-        // Get TikTok video ID and create thumbnail URL
         const videoId = item.src.split('/video/')[1]?.split('?')[0];
         const thumbnailUrl = videoId ? `https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/${videoId}?x-expires=1234567890&x-signature=abc123` : '';
-        
         node.innerHTML = `
           <img src="${thumbnailUrl}" alt="TikTok Video Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
           <div class="cover-overlay">
@@ -726,21 +543,16 @@ function renderResultsInline(type) {
             <div class="platform-badge">🎵 TikTok</div>
           </div>
         `;
-        
         node.addEventListener('click', () => {
           window.open(item.src, '_blank');
         });
-        
       } else if (item.type === 'instagram') {
-        // Create video cover for Instagram with actual thumbnail
+        // Instagram video
         node = document.createElement('div');
         node.className = 'video-cover instagram-cover';
         node.style.cursor = 'pointer';
-        
-        // Get Instagram post ID and create thumbnail URL
         const postId = item.src.split('/p/')[1]?.split('/')[0];
         const thumbnailUrl = postId ? `https://www.instagram.com/p/${postId}/media/?size=t` : '';
-        
         node.innerHTML = `
           <img src="${thumbnailUrl}" alt="Instagram Video Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
           <div class="cover-overlay">
@@ -748,26 +560,35 @@ function renderResultsInline(type) {
             <div class="platform-badge">📸 Instagram</div>
           </div>
         `;
-        
         node.addEventListener('click', () => {
           window.open(item.src, '_blank');
         });
+      } else {
+        // Image item (for design)
+        node = document.createElement('img');
+        node.src = item.src;
+        node.alt = item.alt || '';
+        node.className = 'gallery-item';
+        node.style.cursor = 'zoom-in';
+        node.style.animationDelay = `${idx * 0.1}s`;
+        
+        // Add click event directly when creating the image
+        node.addEventListener('click', () => {
+          console.log('Design image clicked:', item.src, item.title);
+          openImageModal(item.src, item.alt || '', item.title || '', item);
+        });
       }
-      if (!node) return;
-      node.style.animationDelay = `${Math.min(idx * 80, 400)}ms`;
-      node.classList.add('reveal');
+      
       grid.appendChild(node);
     });
-
-    container.appendChild(grid);
+    
+    resultsContainer.appendChild(grid);
   }
-
-  // Bind video previews after content is rendered
-  setTimeout(() => {
-    bindVideoPreview(container);
-  }, 100);
   
-  container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // Only bind video preview events, images already have click handlers
+  bindVideoPreview();
+  
+  console.log('Portfolio results rendered for type:', type);
 }
 
 function initPortfolioCards() {
@@ -794,44 +615,126 @@ function initContactModal() {
   });
 }
 
-function openImageModal(src, alt, title, description) { 
-  console.log('Opening image modal:', { src, alt, title, description }); // Debug log
-  const m = $('#image-modal'); 
-  const img = $('#image-modal-img');
-  const titleEl = $('#image-modal-title');
-  const descEl = $('#image-modal-desc');
-  if (!m || !img) {
-    console.error('Image modal elements not found'); // Debug log
-    return; 
-  } 
+// Open image modal with detailed description
+function openImageModal(src, title, description, itemData = null) {
+  console.log('=== OPENING IMAGE MODAL ===');
+  console.log('Parameters:', { src, title, description, itemData });
   
-  img.src = src; 
-  img.alt = alt || '';
-  titleEl.textContent = title || '';
-  descEl.textContent = description || '';
+  const modal = document.getElementById('image-modal');
+  const img = document.getElementById('image-modal-img');
+  const titleEl = document.getElementById('image-modal-title');
+  const descEl = document.getElementById('image-modal-desc');
   
-  // Hide description if empty
-  const descContainer = $('.image-description');
-  if (descContainer) {
-    descContainer.style.display = (title || description) ? 'block' : 'none';
+  console.log('DOM Elements found:', { 
+    modal: !!modal, 
+    img: !!img, 
+    titleEl: !!titleEl, 
+    descEl: !!descEl 
+  });
+  
+  if (!modal || !img || !titleEl || !descEl) {
+    console.error('Modal elements not found:', { modal, img, titleEl, descEl });
+    return;
   }
   
-  m.classList.add('open'); 
-  m.setAttribute('aria-hidden','false'); 
-  document.body.style.overflow='hidden'; 
+  // Set modal content
+  img.src = src;
+  img.alt = title;
+  titleEl.textContent = title;
+  
+  // Build detailed description based on item type
+  let fullDescription = '';
+  
+  if (itemData) {
+    console.log('Building description for item:', itemData);
+    if (itemData.location || itemData.camera || itemData.lens || itemData.settings) {
+      // Photography item
+      fullDescription = `
+        <div class="photo-details">
+          ${itemData.location ? `<p><strong>Location:</strong> ${itemData.location}</p>` : ''}
+          ${itemData.camera ? `<p><strong>Camera:</strong> ${itemData.camera}</p>` : ''}
+          ${itemData.lens ? `<p><strong>Lens:</strong> ${itemData.lens}</p>` : ''}
+          ${itemData.settings ? `<p><strong>Settings:</strong> ${itemData.settings}</p>` : ''}
+        </div>
+        <div class="photo-description">
+          <p><strong>Description:</strong></p>
+          ${itemData.description ? itemData.description.split('\n').map(line => `<p>${line}</p>`).join('') : ''}
+        </div>
+      `;
+    } else if (itemData.category || itemData.year || itemData.tools || itemData.objective) {
+      // Design item
+      fullDescription = `
+        <div class="design-details">
+          ${itemData.category ? `<p><strong>Category:</strong> ${itemData.category}</p>` : ''}
+          ${itemData.year ? `<p><strong>Year:</strong> ${itemData.year}</p>` : ''}
+          ${itemData.tools ? `<p><strong>Tools:</strong> ${itemData.tools}</p>` : ''}
+        </div>
+        <div class="design-description">
+          <p><strong>Description:</strong></p>
+          ${itemData.description ? itemData.description.split('\n').map(line => `<p>${line}</p>`).join('') : ''}
+        </div>
+        ${itemData.objective ? `
+        <div class="design-objective">
+          <p><strong>Objective:</strong></p>
+          <p>${itemData.objective}</p>
+        </div>
+        ` : ''}
+      `;
+    } else {
+      // Regular item with simple description
+      fullDescription = description || '';
+    }
+  } else {
+    fullDescription = description || '';
+  }
+  
+  console.log('Final description HTML:', fullDescription);
+  descEl.innerHTML = fullDescription;
+  
+  // Show modal
+  modal.setAttribute('aria-hidden', 'false');
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+  
+  console.log('Modal classes after opening:', modal.className);
+  console.log('Modal aria-hidden:', modal.getAttribute('aria-hidden'));
+  
+  // Focus management
+  const closeBtn = modal.querySelector('.close');
+  if (closeBtn) {
+    closeBtn.focus();
+    console.log('Close button focused');
+  }
+  
+  console.log('=== MODAL OPENED SUCCESSFULLY ===');
 }
-function closeImageModal() { 
-  const m = $('#image-modal'); 
-  if (!m) return; 
-  m.classList.remove('open'); 
-  m.setAttribute('aria-hidden','true'); 
-  document.body.style.overflow=''; 
+function closeImageModal() {
+  const modal = document.getElementById('image-modal');
+  if (!modal) {
+    console.error('Image modal not found');
+    return;
+  }
+  
+  modal.setAttribute('aria-hidden', 'true');
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+  
+  console.log('Image modal closed');
 }
-function initImageModal() { 
-  const m = $('#image-modal'); 
-  m?.addEventListener('click',(e)=>{ 
-    if(e.target.hasAttribute('data-close')) closeImageModal(); 
-  }); 
+function initImageModal() {
+  const modal = document.getElementById('image-modal');
+  if (!modal) {
+    console.error('Image modal not found during initialization');
+    return;
+  }
+  
+  modal.addEventListener('click', (e) => {
+    if (e.target.hasAttribute('data-close') || e.target.classList.contains('backdrop')) {
+      closeImageModal();
+    }
+  });
+  
+  console.log('Image modal initialized successfully');
 }
 
 function renderCV() {
@@ -963,6 +866,35 @@ function init() {
   initVideoModal(); // Initialize video modal
   renderCV();
   initThemeToggle();
+  
+  // Add test button functionality
+  initTestButton();
+}
+
+// Test function for debugging modal
+function initTestButton() {
+  const testBtn = document.getElementById('test-modal');
+  if (testBtn) {
+    testBtn.addEventListener('click', () => {
+      console.log('=== TEST BUTTON CLICKED ===');
+      const testItem = {
+        src: 'Photo/Photography/DSC_1190.png',
+        alt: 'Test Image',
+        title: 'Test Photography',
+        location: 'Test Location',
+        camera: 'Test Camera',
+        lens: 'Test Lens',
+        settings: 'f/2.8, 1/200s, ISO 400',
+        description: 'This is a test description for debugging purposes.\n\nIt has multiple lines to test the modal functionality.'
+      };
+      
+      console.log('Testing with item:', testItem);
+      openImageModal(testItem.src, testItem.alt, testItem.title, testItem);
+    });
+    console.log('Test button initialized');
+  } else {
+    console.log('Test button not found');
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init); 
