@@ -154,7 +154,7 @@ const cvData = {
     },
     {
       title: 'Communication',
-      skills: ['Public Speaking', 'Written Communication', 'Interpersonal Skills', 'Presentation Skills']
+      skills: ['Public Speaking', 'Written Communication', 'Presentation Skills']
     },
     {
       title: 'Creativity & Innovation',
@@ -193,22 +193,22 @@ const galleries = {
         items: [
           {
             src: 'Photo/Photography/DSC_1190.png',
-            alt: 'Event Photography',
-            title: 'Graduation Ceremony',
-            location: 'Universitas Brawijaya, Malang',
-            camera: 'Canon EOS R6',
-            lens: 'RF 24-70mm f/2.8L IS USM',
-            settings: 'f/2.8, 1/200s, ISO 400',
+            alt: 'Mini Concert Photography',
+            title: 'Cafe Music',
+            location: 'Bento Dafe, Tasikmalaya',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/2, 1/120s, ISO 400',
             description: 'Capturing the emotional moments of graduation day. The ceremony was held in the main auditorium with beautiful natural lighting streaming through the windows. I focused on candid expressions and the interaction between graduates and their families.\n\nThe challenge was to maintain consistent exposure while moving between different lighting conditions throughout the venue. I used a combination of natural light and subtle fill flash to ensure all subjects were properly illuminated.'
           },
           {
-            src: 'Photo/event2.jpg',
-            alt: 'Corporate Event',
-            title: 'Tech Conference 2024',
-            location: 'Jakarta Convention Center',
-            camera: 'Sony A7 III',
-            lens: 'FE 70-200mm f/2.8 GM OSS',
-            settings: 'f/2.8, 1/160s, ISO 800',
+            src: 'Photo/Photography/IMG_9000.png',
+            alt: 'Campus Event',
+            title: 'First Gathering of History Education 2023 ',
+            location: 'Ruang Ide',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/3, 1/30s, ISO 800',
             description: 'Documenting the annual technology conference featuring keynote speakers and networking sessions. The event spanned three days with various workshops and panel discussions.\n\nI captured both the formal presentations and the informal networking moments, ensuring a comprehensive visual story of the entire conference experience.'
           }
         ]
@@ -217,12 +217,72 @@ const galleries = {
         name: 'Portrait Photography',
         items: [
           {
-            src: 'Photo/portrait1.jpg',
-            alt: 'Professional Portrait',
-            title: 'Executive Headshot',
-            location: 'Studio Malang',
-            camera: 'Canon EOS R5',
-            lens: 'RF 85mm f/1.2L USM',
+            src: 'Photo/Photography/DSC_8541.png',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+          },
+          {
+            src: 'Photo/Photography/DSC_8601.png',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+          },
+          {
+            src: 'Photo/Photography/DSC_8690.png',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+          },
+          {
+            src: 'Photo/Photography/mul.jpg',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+          },
+          {
+            src: 'Photo/Photography/rere.jpg',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+          },
+          {
+            src: 'Photo/Photography/Wawe.jpg',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+          },
+          {
+            src: 'Photo/Photography/Sewe.jpg',
+            alt: 'Casual Portrait',
+            title: 'Holiday at Yogyakarta',
+            location: 'Between Two Gates, Yogyakarta',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
             description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
           }
@@ -264,29 +324,29 @@ const galleries = {
     title: 'Design',
     items: [
       {
-        src: 'Photo/design1.jpg',
-        alt: 'Brand Identity Design',
-        title: 'Coffee Shop Brand Identity',
-        category: 'Brand Identity',
-        year: '2024',
-        tools: 'Adobe Illustrator, Photoshop, Figma',
+        src: 'Photo/Design/POSTERKJO.png',
+        alt: 'Poster Design',
+        title: 'Kunjungan ORMAWA HIMAGROxHIMASELA',
+        category: 'Activity Poster',
+        year: '2025',
+        tools: 'Canva',
         description: 'Complete brand identity design for a local coffee shop chain. The project included logo design, color palette, typography, and brand guidelines.\n\nThe design concept revolves around the warmth and comfort of coffee culture, using earthy tones and organic shapes. The logo incorporates coffee bean elements with modern typography for a contemporary feel.',
         objective: 'Create a memorable brand identity that differentiates the coffee shop from competitors while appealing to both young professionals and coffee enthusiasts. The design needed to work across various applications including signage, packaging, and digital platforms.'
       },
       {
-        src: 'Photo/design2.jpg',
-        alt: 'UI/UX Design',
-        title: 'E-commerce Mobile App',
-        category: 'UI/UX Design',
-        year: '2023',
-        tools: 'Figma, Adobe XD, Principle',
+        src: 'Photo/Design/DUA.png',
+        alt: 'Product Label',
+        title: 'Ketapang Product Label',
+        category: 'Product Label',
+        year: '2025',
+        tools: 'Canva',
         description: 'Mobile app design for an e-commerce platform specializing in handmade crafts. The design focuses on user experience and easy navigation.\n\nThe interface uses a clean, minimalist approach with intuitive icons and clear call-to-action buttons. User research informed the design decisions, ensuring the app meets the needs of both buyers and sellers.',
         objective: 'Design an intuitive and engaging mobile shopping experience that increases user engagement and conversion rates. The app should be accessible to users of all ages and technical abilities.'
       },
       {
-        src: 'Photo/design3.jpg',
-        alt: 'Social Media Design',
-        title: 'Instagram Campaign Design',
+        src: 'Photo/Design/Basket.png',
+        alt: 'Poster Design',
+        title: 'Basketball Open Recruitment',
         category: 'Social Media Design',
         year: '2024',
         tools: 'Adobe Photoshop, Canva, Figma',
