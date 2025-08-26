@@ -218,73 +218,83 @@ const galleries = {
         items: [
           {
             src: 'Photo/Photography/DSC_8541.png',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
+            alt: 'Vintage Elegance',
+            title: 'Casual Portrait',
             location: 'Between Two Gates, Yogyakarta',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'This portrait captures a young man in a crisp white shirt and sunglasses, standing in front of a traditional wooden building. The natural light highlights his relaxed yet confident posture, creating a balance between elegance and casual charm. The wooden textures in the background add a timeless, vintage character that enhances the overall mood of the shot.\n\nThe image gives off a street-style impression while still maintaining a polished look. It reflects confidence and simplicity, showing how fashion and environment can blend together to create a strong visual story.'
           },
           {
             src: 'Photo/Photography/DSC_8601.png',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
+            alt: 'Urban Casual',
+            title: 'Casual Portrait',
             location: 'Between Two Gates, Yogyakarta',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'A man in a green army vest and striped t-shirt sitting casually in front of a building. His natural expression creates a stylish candid moment, highlighting a modern casual vibe.'
           },
           {
             src: 'Photo/Photography/DSC_8690.png',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
-            location: 'Between Two Gates, Yogyakarta',
+            alt: 'Joy by the Sea',
+            title: 'Casual Portrait',
+            location: 'Ngrawe Beach, Yogyakarta',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'A cheerful woman posing by the beach in a white dress. Her free-spirited gesture and bright smile capture the warmth and joy of a holiday atmosphere.'
           },
           {
             src: 'Photo/Photography/mul.jpg',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
-            location: 'Between Two Gates, Yogyakarta',
+            alt: 'City Lights Smile',
+            title: 'Casual Portrait',
+            location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'A portrait of a woman in a black hijab, smiling brightly against a colorful night backdrop. The neon lights add a lively and cheerful touch to the scene.'
           },
           {
-            src: 'Photo/Photography/rere.jpg',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
-            location: 'Between Two Gates, Yogyakarta',
+            src: 'Photo/Photography/Rere.jpg',
+            alt: 'Natural Warmth',
+            title: 'Casual Portrait',
+            location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'A woman in a hijab smiling warmly indoors, surrounded by green plants. The natural expression gives off a friendly and comfortable impression, simple yet full of warmth.'
           },
           {
             src: 'Photo/Photography/Wawe.jpg',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
-            location: 'Between Two Gates, Yogyakarta',
+            alt: 'Artistic Greeting',
+            title: 'Casual Portrait',
+            location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'A woman in a white hijab posing close to the camera with her hand slightly raised, as if waving. The dark background and bokeh lights bring an artistic and intimate feel.'
           },
           {
             src: 'Photo/Photography/Sewe.jpg',
-            alt: 'Casual Portrait',
-            title: 'Holiday at Yogyakarta',
-            location: 'Between Two Gates, Yogyakarta',
+            alt: 'Bold in Black',
+            title: 'Casual Portrait',
+            location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
             settings: 'f/1.2, 1/125s, ISO 100',
-            description: 'Professional headshot session for corporate executives. The setup used a three-light system with a main key light, fill light, and hair light to create depth and dimension.\n\nThe shallow depth of field at f/1.2 creates a beautiful bokeh effect while keeping the subject\'s eyes sharp and engaging. The lighting was designed to convey professionalism and approachability.'
+            description: 'A close-up portrait of a woman in a black hijab and leather jacket, striking an elegant pose with a bold gaze. The mood reflects a modern, editorial-style fashion photoshoot.'
+          },
+          {
+            src: 'Photo/Photography/Azfa.jpg',
+            alt: 'Candid Urban Life',
+            title: 'Casual Portrait',
+            location: 'Aksen Coffee, Garut',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/1.2, 1/125s, ISO 100',
+            description: 'A young man in a gray hoodie sitting on spiral stairs, focused on his phone. The candid moment creates a casual everyday vibe with a touch of urban aesthetics.'
           }
         ]
       },
@@ -292,14 +302,74 @@ const galleries = {
         name: 'Product Photography',
         items: [
           {
-            src: 'Photo/product1.jpg',
-            alt: 'Product Shot',
-            title: 'Artisan Coffee Beans',
-            location: 'Home Studio',
-            camera: 'Fujifilm X-T4',
-            lens: 'XF 60mm f/2.4 Macro',
+            src: 'Photo/Photography/DSC_7882.png',
+            alt: 'Crispy Snack Delight',
+            title: 'Product Shot',
+            location: 'Cipacing, Tasikmalaya',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
             settings: 'f/8, 1/60s, ISO 200',
-            description: 'Product photography for local coffee roaster showcasing their premium single-origin beans. The setup used natural window lighting with reflectors to fill shadows.\n\nI arranged the beans in an artistic composition that highlights their texture and color variations, while maintaining a clean, commercial aesthetic suitable for marketing materials.'
+            description: 'A close-up shot of round puffed snacks captured in a black bowl. The soft lighting enhances their texture, making them look crunchy and tempting—perfectly styled to highlight the product appetizing appeal.'
+          },
+          {
+            src: 'Photo/Photography/DSC_7899.png',
+            alt: 'Golden Crunch Sticks',
+            title: 'Product Shot',
+            location: 'Cipacing, Tasikmalaya',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'This photo features crispy snack sticks in a wooden bowl. The warm tones and clean background emphasize the golden color of the snack, giving it a homemade yet premium vibe.'
+          },
+          {
+            src: 'Photo/Photography/DSC_7910.png',
+            alt: 'Savory Crisps',
+            title: 'Product Shot',
+            location: 'Cipacing, Tasikmalaya',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'Crispy crackers served in a black bowl, styled with a minimalistic approach. The shot captures the texture and golden-brown tone, presenting the snack in an appealing and fresh way.'
+          },
+          {
+            src: 'Photo/Photography/DSC_6796.png',
+            alt: 'Product Shot',
+            title: 'Natural Fresh Drink',
+            location: 'Home Studio, Garut',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'A minimalist product shot of a bottled green beverage. The clean white background emphasizes the modern packaging design, creating a refreshing and natural impression.'
+          },
+          {
+            src: 'Photo/Photography/DSC_6822.png',
+            alt: 'Coffee Blend Energy',
+            title: 'Product Shot',
+            location: 'Home Studio, Garut',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'A close-up of the same bottled drink, styled with scattered coffee beans around the base. The composition highlights both the packaging and its flavor essence, giving a professional commercial feel.'
+          },
+          {
+            src: 'Photo/Photography/khaf1.jpg',
+            alt: 'Kahf in Hand',
+            title: 'Product Shot',
+            location: 'SMAN 6 Garut, Garut',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'A lifestyle product photo featuring Kahf Eau de Toilette held in hand with natural greenery as background. The shot emphasizes authenticity and nature, highlighting the brand’s masculine yet refreshing concept.'
+          },
+          {
+            src: 'Photo/Photography/khaf2.jpg',
+            alt: 'Nature Essence',
+            title: 'Product Shot',
+            location: 'SMAN 6 Garut, Garut',
+            camera: 'Nikon D3200',
+            lens: 'Yongnuo 50mm F1.8',
+            settings: 'f/8, 1/60s, ISO 200',
+            description: 'Kahf Eau de Toilette positioned outdoors with greenery in the background. The natural setting enhances the earthy tone of the packaging, reinforcing the product’s fresh and natural branding.'
           }
         ]
       },
@@ -307,7 +377,17 @@ const galleries = {
         name: 'Landscape & Street',
         items: [
           {
-            src: 'Photo/landscape1.jpg',
+            src: 'Photo/Photography/street1.jpg',
+            alt: 'Mountain Landscape',
+            title: 'Sunrise at Bromo',
+            location: 'Mount Bromo, East Java',
+            camera: 'Nikon Z6',
+            lens: 'Z 14-30mm f/4 S',
+            settings: 'f/8, 1/15s, ISO 100',
+            description: 'Capturing the magical sunrise over Mount Bromo crater. The scene was photographed during the golden hour when the light was soft and warm.\n\nI used a tripod for the long exposure to capture the movement of the clouds and ensure sharp focus throughout the frame. The composition follows the rule of thirds with the crater positioned at the intersection points.'
+          },
+          {
+            src: 'Photo/Photography/street2.jpg',
             alt: 'Mountain Landscape',
             title: 'Sunrise at Bromo',
             location: 'Mount Bromo, East Java',
