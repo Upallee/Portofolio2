@@ -911,19 +911,65 @@ html[data-theme="light"] .category-title {
   }
 } 
 
-/* Video Modal Styles */
+/* Video Modal Styling */
+#video-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#video-modal.active {
+  display: flex;
+}
+
+#video-modal .backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(8px);
+}
+
 .video-dialog {
+  position: relative;
+  background: var(--card-strong);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
   max-width: 90vw;
   max-height: 90vh;
-  width: auto;
-  height: auto;
-  overflow: visible;
+  overflow: auto;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+  z-index: 1001;
 }
 
 .video-modal-content {
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  flex-direction: row;
+}
+
+/* Responsive design untuk layar kecil */
+@media (max-width: 768px) {
+  .video-modal-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-modal-content iframe {
+    max-width: 90vw;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  
+  .video-description {
+    min-width: auto;
+    max-width: 90vw;
+  }
 }
 
 .video-modal-content iframe {
@@ -961,14 +1007,14 @@ html[data-theme="light"] .category-title {
 
 .video-description h4 {
   margin: 0 0 12px;
-  color: var(--text-primary);
+  color: var(--text);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .video-description p {
   margin: 0;
-  color: var(--text-secondary);
+  color: var(--muted);
   line-height: 1.6;
 }
 
@@ -1015,6 +1061,90 @@ html[data-theme="light"] .category-title {
   font-size: 24px;
   color: #000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Video Cover Styling */
+.video-cover {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--border);
+}
+
+.video-cover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.video-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.video-cover:hover img {
+  transform: scale(1.05);
+}
+
+.cover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: background 0.2s ease;
+}
+
+.video-cover:hover .cover-overlay {
+  background: rgba(0,0,0,0.7);
+}
+
+.play-icon {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease;
+}
+
+.video-cover:hover .play-icon {
+  transform: scale(1.1);
+}
+
+.platform-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Platform-specific badge colors */
+.youtube-cover .platform-badge {
+  background: #ff0000;
+  color: white;
+}
+
+.tiktok-cover .platform-badge {
+  background: #000000;
+  color: white;
+}
+
+.instagram-cover .platform-badge {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
 }
 
 /* Light mode adjustments for video modal */
@@ -1663,4 +1793,77 @@ html[data-theme="light"] .video-cover {
     font-size: 0.8rem;
     padding: 3px 10px;
   }
+} 
+
+/* Skills Section Styling */
+.skills-subsection {
+  margin-bottom: 32px;
+}
+
+.skills-subsection:last-child {
+  margin-bottom: 0;
+}
+
+.subsection-title {
+  color: #a78bfa;
+  font-size: 1.2rem;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(124, 58, 237, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Tools Grid */
+.tools-grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.tool-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.tool-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.tool-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+.tool-card:hover .tool-logo {
+  filter: brightness(1.1);
+}
+
+.tool-emoji {
+  font-size: 32px;
+  color: var(--text);
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover .tool-emoji {
+  transform: scale(1.1);
+}
+
+/* Grid Four */
+.grid.four {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 } 

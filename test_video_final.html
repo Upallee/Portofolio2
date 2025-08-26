@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Video Modal Final</title>
+  <style>
+    :root {
+      --bg-1: #0b0f14;
+      --bg-2: #0a0f16;
+      --card: rgba(19, 24, 33, 0.8);
+      --card-strong: rgba(12, 16, 23, 0.9);
+      --border: rgba(148, 163, 184, 0.12);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --radius: 16px;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg-1);
+      color: var(--text);
+      padding: 20px;
+      margin: 0;
+    }
+    
+    .test-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .video-cover {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      margin: 20px;
+      display: inline-block;
+    }
+    
+    .video-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .cover-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .play-icon {
+      font-size: 48px;
+      color: white;
+      margin-bottom: 8px;
+    }
+    
+    .platform-badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      background: #ff0000;
+      color: white;
+    }
+    
+    /* Video Modal Styling - Sama dengan website utama */
+    #video-modal {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    
+    #video-modal.active {
+      display: flex;
+    }
+    
+    #video-modal .backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      backdrop-filter: blur(8px);
+    }
+    
+    .video-dialog {
+      position: relative;
+      background: var(--card-strong);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow: auto;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+      z-index: 1001;
+    }
+    
+    .video-modal-content {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    
+    .video-modal-content iframe {
+      max-width: 70vw;
+      max-height: 85vh;
+      width: 560px;
+      height: 315px;
+      border-radius: 12px;
+      flex-shrink: 0;
+    }
+    
+    .video-description {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 20px;
+      min-width: 250px;
+      max-width: 300px;
+      border: 1px solid var(--border);
+    }
+    
+    .video-description h4 {
+      margin: 0 0 12px;
+      color: var(--text);
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    
+    .video-description p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    
+    .close {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 24px;
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      color: #7c3aed;
+    }
+    
+    .debug-info {
+      background: #333;
+      padding: 10px;
+      border-radius: 4px;
+      margin: 10px 0;
+      font-family: monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="test-container">
+    <h1>Test Video Modal Final</h1>
+    <p>Klik pada video cover untuk membuka modal:</p>
+    
+    <!-- YouTube Video Cover -->
+    <div class="video-cover" onclick="openVideoModal()">
+      <img src="https://img.youtube.com/vi/sZmgDNARSPo/maxresdefault.jpg" alt="YouTube Video Cover">
+      <div class="cover-overlay">
+        <div class="play-icon">▶</div>
+        <div class="platform-badge">📺 YouTube</div>
+      </div>
+    </div>
+    
+    <div class="debug-info">
+      <strong>Debug Info:</strong><br>
+      - Video ID: sZmgDNARSPo<br>
+      - URL: https://www.youtube.com/watch?v=sZmgDNARSPo<br>
+      - Embed URL: https://www.youtube.com/embed/sZmgDNARSPo
+    </div>
+  </div>
+  
+  <!-- Video Modal - Struktur sama dengan website utama -->
+  <div id="video-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="backdrop" data-close></div>
+    <div class="dialog video-dialog" role="document">
+      <button class="close" aria-label="Tutup">×</button>
+      <div class="video-modal-content">
+        <iframe id="video-iframe" frameborder="0" allowfullscreen></iframe>
+        <div class="video-description">
+          <h4 id="video-title">Test Video</h4>
+          <p id="video-description">Test Description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    function openVideoModal() {
+      console.log('=== OPENING VIDEO MODAL ===');
+      
+      const modal = document.getElementById('video-modal');
+      const iframe = document.getElementById('video-iframe');
+      const titleEl = document.getElementById('video-title');
+      const descEl = document.getElementById('video-description');
+      
+      console.log('DOM Elements found:', { 
+        modal: !!modal, 
+        iframe: !!iframe, 
+        titleEl: !!titleEl, 
+        descEl: !!descEl 
+      });
+      
+      if (!modal || !iframe) {
+        console.error('Video modal elements not found:', { modal, iframe });
+        return;
+      }
+      
+      // Set modal content
+      iframe.src = 'https://www.youtube.com/embed/sZmgDNARSPo';
+      titleEl.textContent = 'Collaboration with Mojang Jajaka Finalist – Garut';
+      descEl.textContent = 'A collaborative video project featuring the Mojang Jajaka finalist from Garut.';
+      
+      // Show modal
+      modal.classList.add('active');
+      modal.setAttribute('aria-hidden', 'false');
+      
+      console.log('Video modal opened successfully');
+      console.log('Modal classes:', modal.className);
+      console.log('Modal aria-hidden:', modal.getAttribute('aria-hidden'));
+    }
+    
+    function closeVideoModal() {
+      const modal = document.getElementById('video-modal');
+      const iframe = document.getElementById('video-iframe');
+      
+      iframe.src = '';
+      modal.classList.remove('active');
+      modal.setAttribute('aria-hidden', 'true');
+      
+      console.log('Video modal closed');
+    }
+    
+    // Initialize video modal
+    function initVideoModal() {
+      const m = document.getElementById('video-modal');
+      if (!m) return;
+      
+      // Close modal when clicking backdrop or close button
+      m.addEventListener('click', (e) => {
+        if (e.target === m || e.target.classList.contains('backdrop') || e.target.classList.contains('close')) {
+          closeVideoModal();
+        }
+      });
+      
+      // Close modal with Escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeVideoModal();
+        }
+      });
+    }
+    
+    // Initialize when page loads
+    document.addEventListener('DOMContentLoaded', initVideoModal);
+    
+    console.log('Test page loaded successfully');
+  </script>
+</body>
+</html>

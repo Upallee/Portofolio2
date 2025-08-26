@@ -193,8 +193,8 @@ const galleries = {
         items: [
           {
             src: 'Photo/Photography/DSC_1190.png',
-            alt: 'Mini Concert Photography',
-            title: 'Cafe Music',
+            alt: 'Cafe Music',
+            title: 'Mini Concert Photography',
             location: 'Bento Dafe, Tasikmalaya',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -214,12 +214,13 @@ const galleries = {
         ]
       },
       {
+      
         name: 'Portrait Photography',
         items: [
           {
             src: 'Photo/Photography/DSC_8541.png',
-            alt: 'Vintage Elegance',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Vintage Elegance',
             location: 'Between Two Gates, Yogyakarta',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -228,8 +229,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/DSC_8601.png',
-            alt: 'Urban Casual',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Urban Casual',
             location: 'Between Two Gates, Yogyakarta',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -238,8 +239,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/DSC_8690.png',
-            alt: 'Joy by the Sea',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Joy by the Sea',
             location: 'Ngrawe Beach, Yogyakarta',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -248,8 +249,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/mul.jpg',
-            alt: 'City Lights Smile',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'City Lights Smile',
             location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -258,8 +259,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/Rere.jpg',
-            alt: 'Natural Warmth',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Natural Warmth',
             location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -268,8 +269,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/Wawe.jpg',
-            alt: 'Artistic Greeting',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Artistic Greeting',
             location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -278,8 +279,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/Sewe.jpg',
-            alt: 'Bold in Black',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Bold in Black',
             location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -288,8 +289,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/Azfa.jpg',
-            alt: 'Candid Urban Life',
-            title: 'Casual Portrait',
+            alt: 'Casual Portrait',
+            title: 'Candid Urban Life',
             location: 'Aksen Coffee, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -303,8 +304,8 @@ const galleries = {
         items: [
           {
             src: 'Photo/Photography/DSC_7882.png',
-            alt: 'Crispy Snack Delight',
-            title: 'Product Shot',
+            alt: 'Product Shot',
+            title: 'Crispy Snack Delight',
             location: 'Cipacing, Tasikmalaya',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -313,8 +314,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/DSC_7899.png',
-            alt: 'Golden Crunch Sticks',
-            title: 'Product Shot',
+            alt: 'Product Shot',
+            title: 'Golden Crunch Sticks',
             location: 'Cipacing, Tasikmalaya',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -323,8 +324,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/DSC_7910.png',
-            alt: 'Savory Crisps',
-            title: 'Product Shot',
+            alt: 'Product Shot',
+            title: 'Savory Crisps',
             location: 'Cipacing, Tasikmalaya',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -343,8 +344,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/DSC_6822.png',
-            alt: 'Coffee Blend Energy',
-            title: 'Product Shot',
+            alt: 'Product Shot',
+            title: 'Coffee Blend Energy',
             location: 'Home Studio, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -353,8 +354,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/khaf1.jpg',
-            alt: 'Kahf in Hand',
-            title: 'Product Shot',
+            alt: 'Product Shot',
+            title: 'Kahf in Hand',
             location: 'SMAN 6 Garut, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -363,8 +364,8 @@ const galleries = {
           },
           {
             src: 'Photo/Photography/khaf2.jpg',
-            alt: 'Nature Essence',
-            title: 'Product Shot',
+            alt: 'Product Shot',
+            title: 'Nature Essence',
             location: 'SMAN 6 Garut, Garut',
             camera: 'Nikon D3200',
             lens: 'Yongnuo 50mm F1.8',
@@ -405,33 +406,113 @@ const galleries = {
     items: [
       {
         src: 'Photo/Design/POSTERKJO.png',
-        alt: 'Poster Design',
-        title: 'Kunjungan ORMAWA HIMAGROxHIMASELA',
-        category: 'Activity Poster',
+        alt: 'Student organization visit event poster',
+        title: 'HIMAGROxHIMASELA Visit',
+        category: 'Event Design / Poster',
         year: '2025',
         tools: 'Canva',
-        description: 'Complete brand identity design for a local coffee shop chain. The project included logo design, color palette, typography, and brand guidelines.\n\nThe design concept revolves around the warmth and comfort of coffee culture, using earthy tones and organic shapes. The logo incorporates coffee bean elements with modern typography for a contemporary feel.',
-        objective: 'Create a memorable brand identity that differentiates the coffee shop from competitors while appealing to both young professionals and coffee enthusiasts. The design needed to work across various applications including signage, packaging, and digital platforms.'
+        description: 'A formal poster design for a student organization visit event, featuring elegant serif typography and a clean layout.',
+        objective: 'To deliver event information clearly and professionally while attracting the attention of university students.'
       },
       {
         src: 'Photo/Design/DUA.png',
-        alt: 'Product Label',
-        title: 'Ketapang Product Label',
-        category: 'Product Label',
+        alt: 'Local cassava flour product poster',
+        title: 'Product Poster – Cassava Flour Composition',
+        category: 'Product / Food Poster',
         year: '2025',
         tools: 'Canva',
+        description: 'A simple poster design with warm tones and illustration elements to introduce a local cassava flour product.',
+        objective: 'To educate and promote local food products, making them more appealing to the public.'
+      },
+      {
+        src: 'Photo/Design/Basket.png',
+        alt: 'Basketball student recruitment poster',
+        title: 'Recruitment Poster – Basketball Open Rescruitment',
+        category: 'Sports / Event Poster',
+        year: '2022',
+        tools: 'Canva',
+        description: 'A dynamic poster with bold purple tones and strong typography, featuring a basketball player as the main visual.',
+        objective: 'To attract students to join the basketball ambassador program with an energetic and modern design.'
+      },
+      {
+        src: 'Photo/Design/typo1.jpg',
+        alt: 'Two friends holding Est-Teh drinks during a night out',
+        title: 'Lifestyle Post – Saturday Night Out',
+        category: 'Lifestyle / Instagram Story Design',
+        year: '2023',
+        tools: 'Photoshop',
+        description: 'This visual captures a casual Saturday night moment, showing two people holding Es Teh Nusantara drinks. The design includes playful text overlays such as the day, date, and product names, making it feel like a real Instagram story. Rather than focusing only on the product, the photo emphasizes the social aspect—what drink was ordered and who was there to enjoy the moment together.',
+        objective: 'To share a personal lifestyle update in a visually appealing way, documenting a fun night out with friends and highlighting the experience rather than just the product.'
+      },
+      {
+        src: 'Photo/Design/typo2.jpg',
+        alt: 'Sunset photography poster with elegant typography',
+        title: 'Photography Poster – Beautiful Sunset',
+        category: 'Photography / Poster',
+        year: '2025',
+        tools: 'Photoshop',
+        description: 'A sunset landscape captured with a minimal typography overlay, creating a calm and aesthetic mood.',
+        objective: 'To highlight the beauty of nature and convey a peaceful, artistic atmosphere.'
+      },
+      {
+        src: 'Photo/Design/typo3.jpg',
+        alt: 'Minimalist poster with a break time theme',
+        title: 'Creative Poster – Break Time',
+        category: 'Typography / Creative Design',
+        year: '2025',
+        tools: 'Photoshop',
+        description: 'A clean, monochrome poster design emphasizing the importance of taking breaks, with a strong typographic focus.',
+        objective: 'To deliver a simple yet motivational message through creative visual design.'
+      },
+      {
+        src: 'Photo/Design/typo4.jpg',
+        alt: 'Cinema experience with ticket, hall, and movie screen',
+        title: 'Event Poster – Cinema Night',
+        category: 'Event / Photography Poster',
+        year: '2022',
+        tools: 'Photoshop',
+        description: 'A creative collage-style design capturing the full cinema experience. The composition combines shots of the cinema hallway, movie ticket, patterned carpet, and the big screen with end credits. This storytelling layout gives an immersive feeling as if the viewer is walking through the movie experience step by step.',
+        objective: 'To creatively document and present a memorable cinema night, blending photography with design to evoke a nostalgic and cinematic atmosphere.'
+      },
+      {
+        src: 'Photo/Design/typo5.jpg',
+        alt: 'Photo collage of friendship moments',
+        title: 'Creative Collage – Friendship Moments',
+        category: 'Creative Photography / Collage',
+        year: '2022',
+        tools: 'Photoshop',
+        description: 'A collage-style layout combining multiple candid photos of friends, presented with a playful angle composition.',
+        objective: 'To showcase warm and personal memories through creative visual storytelling.'
+      },
+      {
+        src: 'Photo/Design/typo6.jpg',
+        alt: 'Black and white motivational typography poster',
+        title: 'Typography Poster – Stay Motivated',
+        category: 'Motivational Poster / Typography',
+        year: '2022',
+        tools: 'Photoshop',
+        description: 'A minimal monochrome poster design featuring motivational quotes in a bold typographic style.',
+        objective: 'To inspire and encourage viewers through simple yet impactful design.'
+      },
+      {
+        src: 'Photo/Design/typo7.jpg',
+        alt: 'Cafe interior photography with branding typography',
+        title: 'Branding Photography – Nyuasana Cafe',
+        category: 'Food & Beverage Branding / Photography',
+        year: '2021',
+        tools: 'Photoshop',
         description: 'Mobile app design for an e-commerce platform specializing in handmade crafts. The design focuses on user experience and easy navigation.\n\nThe interface uses a clean, minimalist approach with intuitive icons and clear call-to-action buttons. User research informed the design decisions, ensuring the app meets the needs of both buyers and sellers.',
         objective: 'Design an intuitive and engaging mobile shopping experience that increases user engagement and conversion rates. The app should be accessible to users of all ages and technical abilities.'
       },
       {
-        src: 'Photo/Design/Basket.png',
-        alt: 'Poster Design',
-        title: 'Basketball Open Recruitment',
-        category: 'Social Media Design',
-        year: '2024',
-        tools: 'Adobe Photoshop, Canva, Figma',
-        description: 'Social media campaign design for a sustainable fashion brand. The campaign included Instagram posts, stories, and carousel designs.\n\nEach design maintains brand consistency while adapting to different social media formats. The visual style emphasizes sustainability and eco-friendly fashion choices.',
-        objective: 'Increase brand awareness and engagement on Instagram through visually appealing content that aligns with the brand\'s sustainable values. The campaign should encourage user interaction and sharing.'
+        src: 'Photo/Design/typo8.jpg',
+        alt: 'Coffee product photo with unique cup slogan',
+        title: 'Product Photography – Friendly Coffee',
+        category: 'Food & Beverage Photography',
+        year: '2022',
+        tools: 'Photoshop',
+        description: 'A close-up product photo of iced coffee featuring handwritten slogans on the cup with additional typographic stickers.',
+        objective: 'To present a fun, friendly, and trendy impression for a coffee beverage brand.'
       }
     ]
   },
@@ -439,22 +520,46 @@ const galleries = {
     title: 'Video',
     items: [
       {
-        src: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        src: 'https://www.youtube.com/watch?v=sZmgDNARSPo',
         alt: 'YouTube Video',
-        title: 'Travel Vlog - Bali Adventure',
-        type: 'youtube'
+        title: 'Collaboration with Mojang Jajaka Finalist – Garut',
+        type: 'youtube',
+        description: 'A collaborative video project featuring the Mojang Jajaka finalist from Garut, showcasing local talent and cultural representation.'
       },
       {
-        src: 'https://www.tiktok.com/@user/video/1234567890',
+        src: 'https://www.youtube.com/watch?v=4GbYnItH36c',
+        alt: 'YouTube Video',
+        title: 'Video Profile – "Kabinet Himpunan Agroteknologi Unsil"',
+        type: 'youtube',
+        description: 'Official profile video for the Agrotechnology Student Association cabinet at Universitas Siliwangi, highlighting organizational activities and achievements.'
+      },
+      {
+        src: 'https://www.youtube.com/watch?v=X_vuT-feI9k',
+        alt: 'YouTube Video',
+        title: 'After Movie – "BATAGRO Program Highlight"',
+        type: 'youtube',
+        description: 'Highlight reel showcasing the BATAGRO program activities, capturing key moments and achievements of the agricultural technology initiative.'
+      },
+      {
+        src: 'https://www.youtube.com/watch?v=Gn-zo458O8U',
+        alt: 'YouTube Video',
+        title: 'Educational Video – "Agropedia: Mending Monokultur atau Polikultur?"',
+        type: 'youtube',
+        description: 'Educational content exploring the differences between monoculture and polyculture farming methods, providing insights for agricultural students and practitioners.'
+      },
+      {
+        src: 'https://www.tiktok.com/@upallee/video/6988842951258541338?is_from_webapp=1&sender_device=pc&web_id=7475394433010730504',
         alt: 'TikTok Video',
-        title: 'Quick Photography Tips',
-        type: 'tiktok'
+        title: 'Idul Adha BBQ Moments',
+        type: 'tiktok',
+        description: 'Short-form video capturing the festive atmosphere of Idul Adha celebration with BBQ activities and family gatherings.'
       },
       {
-        src: 'https://www.instagram.com/p/ABC123/',
+        src: 'https://www.instagram.com/tv/CRadkRspzoA',
         alt: 'Instagram Video',
-        title: 'Behind the Scenes',
-        type: 'instagram'
+        title: 'Paskibra PASSMAN SMA 6 GARUT Profile Video',
+        type: 'instagram',
+        description: 'Profile video for the Paskibra (Flag Raising Troop) of SMA Negeri 6 Garut, showcasing their discipline and dedication to ceremonial duties.'
       }
     ]
   }
@@ -474,48 +579,8 @@ function handleImageClick(event) {
   const img = event.target;
   const item = findPortfolioItem(img.src);
   if (item) {
-    openImageModal(img.src, img.alt || '', item.title || '', item);
+    openImageModal(item.src, item.title || '', item.description || '', item);
   }
-}
-
-function bindVideoPreview(container) {
-  $$('.gallery-grid iframe', container).forEach(iframe => {
-    // Create a wrapper div for the iframe to make it clickable
-    const wrapper = iframe.parentElement;
-    if (!wrapper.classList.contains('video-wrapper')) {
-      const newWrapper = document.createElement('div');
-      newWrapper.className = 'video-wrapper';
-      newWrapper.style.cursor = 'pointer';
-      newWrapper.style.position = 'relative';
-      
-      // Add overlay with play button
-      const overlay = document.createElement('div');
-      overlay.className = 'video-overlay';
-      overlay.innerHTML = '<div class="play-button">▶</div>';
-      
-      iframe.parentNode.insertBefore(newWrapper, iframe);
-      newWrapper.appendChild(iframe);
-      newWrapper.appendChild(overlay);
-      
-      // Find the portfolio item
-      const item = findPortfolioItem(iframe.src);
-      if (item) {
-        newWrapper.addEventListener('click', () => {
-          // Check if it's TikTok or Instagram video
-          if (item.src.includes('tiktok.com')) {
-            // Open TikTok video in app
-            window.open(item.src, '_blank');
-          } else if (item.src.includes('instagram.com')) {
-            // Open Instagram video in app
-            window.open(item.src, '_blank');
-          } else {
-            // For YouTube videos, open in modal
-            openVideoModal(iframe.src, item.title || '', item.description || '');
-          }
-        });
-      }
-    }
-  });
 }
 
 // Find portfolio item by source
@@ -537,26 +602,62 @@ function findPortfolioItem(src) {
 }
 
 function openVideoModal(src, title, description) {
+  console.log('=== OPENING VIDEO MODAL ===');
+  console.log('Parameters:', { src, title, description });
+  
   const m = $('#video-modal');
   const iframe = $('#video-modal-iframe');
   const titleEl = $('#video-modal-title');
   const descEl = $('#video-modal-desc');
   
-  if (!m || !iframe) return;
+  console.log('DOM Elements found:', { 
+    modal: !!m, 
+    iframe: !!iframe, 
+    titleEl: !!titleEl, 
+    descEl: !!descEl 
+  });
+  
+  if (!m || !iframe) {
+    console.error('Video modal elements not found:', { modal: m, iframe });
+    return;
+  }
   
   // Handle different video types
   let videoSrc = src;
-  if (src.includes('tiktok.com')) {
-    // Convert TikTok URL to embed format
-    const videoId = src.split('/video/')[1]?.split('?')[0];
-    if (videoId) {
-      videoSrc = `https://www.tiktok.com/embed/${videoId}`;
+  
+  if (src.includes('youtube.com') || src.includes('youtu.be')) {
+    // Convert YouTube URL to proper embed format
+    let videoId = '';
+    
+    if (src.includes('/embed/')) {
+      // Already in embed format
+      videoId = src.split('/embed/')[1]?.split('?')[0];
+    } else if (src.includes('v=')) {
+      // Regular YouTube URL
+      videoId = src.split('v=')[1]?.split('&')[0];
+    } else if (src.includes('youtu.be/')) {
+      // Short YouTube URL
+      videoId = src.split('youtu.be/')[1]?.split('?')[0];
     }
+    
+    if (videoId) {
+      // Use proper embed URL with additional parameters for better compatibility
+      videoSrc = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&showinfo=0`;
+    } else {
+      // Fallback to original src
+      videoSrc = src;
+    }
+  } else if (src.includes('tiktok.com')) {
+    // For TikTok, just open in new tab since embedding can be problematic
+    window.open(src, '_blank');
+    return;
   } else if (src.includes('instagram.com')) {
-    // Instagram embed URL should already be in correct format
-    videoSrc = src;
+    // For Instagram, just open in new tab since embedding can be problematic
+    window.open(src, '_blank');
+    return;
   }
   
+  // Set iframe src
   iframe.src = videoSrc;
   titleEl.textContent = title || '';
   descEl.textContent = description || '';
@@ -567,9 +668,13 @@ function openVideoModal(src, title, description) {
     descContainer.style.display = (title || description) ? 'block' : 'none';
   }
   
-  m.classList.add('open');
+  m.classList.add('active');
   m.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  
+  console.log('Video modal opened successfully');
+  console.log('Modal classes:', m.className);
+  console.log('Modal aria-hidden:', m.getAttribute('aria-hidden'));
 }
 
 function closeVideoModal() {
@@ -582,15 +687,27 @@ function closeVideoModal() {
     iframe.src = '';
   }
   
-  m.classList.remove('open');
+  m.classList.remove('active');
   m.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
 }
 
 function initVideoModal() {
   const m = $('#video-modal');
-  m?.addEventListener('click', (e) => {
-    if (e.target.hasAttribute('data-close')) closeVideoModal();
+  if (!m) return;
+  
+  // Close modal when clicking backdrop or close button
+  m.addEventListener('click', (e) => {
+    if (e.target === m || e.target.classList.contains('backdrop') || e.target.classList.contains('close')) {
+      closeVideoModal();
+    }
+  });
+  
+  // Close modal with Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeVideoModal();
+    }
   });
 }
 
@@ -636,7 +753,7 @@ function renderResultsInline(type) {
           console.log('Target:', event.target);
           console.log('Item data:', item);
           console.log('Calling openImageModal with:', { src: item.src, alt: item.alt, title: item.title, item });
-          openImageModal(item.src, item.alt || '', item.title || '', item);
+          openImageModal(item.src, item.title || '', item.description || '', item);
         });
         
         grid.appendChild(node);
@@ -655,52 +772,98 @@ function renderResultsInline(type) {
       let node;
       
       if (item.type === 'youtube') {
-        // YouTube video
+        // YouTube video - create a clickable thumbnail
         node = document.createElement('div');
         node.className = 'video-cover youtube-cover';
         node.style.cursor = 'pointer';
+        node.style.position = 'relative';
+        node.style.overflow = 'hidden';
+        node.style.borderRadius = '8px';
+        
+        // Extract video ID from YouTube URL
+        const videoId = item.src.split('/embed/')[1] || item.src.split('v=')[1]?.split('&')[0];
+        const thumbnailUrl = videoId ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` : 'Photo/camera.png';
+        
         node.innerHTML = `
-          <iframe src="${item.src}" frameborder="0" allowfullscreen></iframe>
-          <div class="cover-overlay">
-            <div class="play-icon">▶</div>
-            <div class="platform-badge">📺 YouTube</div>
+          <img src="${thumbnailUrl}" alt="YouTube Video Cover" style="width: 100%; height: 200px; object-fit: cover;">
+          <div class="cover-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <div class="play-icon" style="font-size: 48px; color: white; margin-bottom: 8px;">▶</div>
+            <div class="platform-badge" style="background: #ff0000; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">📺 YouTube</div>
           </div>
         `;
+        
         node.addEventListener('click', () => {
-          openVideoModal(item.src, item.title || '');
+          console.log('=== YOUTUBE VIDEO CLICKED ===');
+          console.log('Item data:', item);
+          console.log('Video ID:', videoId);
+          console.log('Original src:', item.src);
+          
+          // Convert to proper embed URL if needed
+          let embedUrl = item.src;
+          if (!embedUrl.includes('/embed/')) {
+            embedUrl = `https://www.youtube.com/embed/${videoId}`;
+          }
+          
+          console.log('Embed URL:', embedUrl);
+          console.log('Title:', item.title);
+          console.log('Description:', item.description);
+          
+          openVideoModal(embedUrl, item.title || '', item.description || '');
         });
       } else if (item.type === 'tiktok') {
-        // TikTok video
+        // TikTok video - create a clickable thumbnail
         node = document.createElement('div');
         node.className = 'video-cover tiktok-cover';
         node.style.cursor = 'pointer';
-        const videoId = item.src.split('/video/')[1]?.split('?')[0];
-        const thumbnailUrl = videoId ? `https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/${videoId}?x-expires=1234567890&x-signature=abc123` : '';
+        node.style.position = 'relative';
+        node.style.overflow = 'hidden';
+        node.style.borderRadius = '8px';
+        
+        // Use a placeholder image for TikTok
+        const thumbnailUrl = 'Photo/tiktok.png';
+        
         node.innerHTML = `
-          <img src="${thumbnailUrl}" alt="TikTok Video Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
-          <div class="cover-overlay">
-            <div class="play-icon">▶</div>
-            <div class="platform-badge">🎵 TikTok</div>
+          <img src="${thumbnailUrl}" alt="TikTok Video Cover" style="width: 100%; height: 200px; object-fit: cover;">
+          <div class="cover-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <div class="play-icon" style="font-size: 48px; color: white; margin-bottom: 8px;">▶</div>
+            <div class="platform-badge" style="background: #000000; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">🎵 TikTok</div>
           </div>
         `;
+        
         node.addEventListener('click', () => {
+          console.log('=== TIKTOK VIDEO CLICKED ===');
+          console.log('Item data:', item);
+          console.log('Opening TikTok URL:', item.src);
+          
+          // Open TikTok profile in new tab
           window.open(item.src, '_blank');
         });
       } else if (item.type === 'instagram') {
-        // Instagram video
+        // Instagram video - create a clickable thumbnail
         node = document.createElement('div');
         node.className = 'video-cover instagram-cover';
         node.style.cursor = 'pointer';
-        const postId = item.src.split('/p/')[1]?.split('/')[0];
-        const thumbnailUrl = postId ? `https://www.instagram.com/p/${postId}/media/?size=t` : '';
+        node.style.position = 'relative';
+        node.style.overflow = 'hidden';
+        node.style.borderRadius = '8px';
+        
+        // Use a placeholder image for Instagram
+        const thumbnailUrl = 'Photo/instagram.png';
+        
         node.innerHTML = `
-          <img src="${thumbnailUrl}" alt="Instagram Video Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
-          <div class="cover-overlay">
-            <div class="play-icon">▶</div>
-            <div class="platform-badge">📸 Instagram</div>
+          <img src="${thumbnailUrl}" alt="Instagram Video Cover" style="width: 100%; height: 200px; object-fit: cover;">
+          <div class="cover-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <div class="play-icon" style="font-size: 48px; color: white; margin-bottom: 8px;">▶</div>
+            <div class="platform-badge" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">📸 Instagram</div>
           </div>
         `;
+        
         node.addEventListener('click', () => {
+          console.log('=== INSTAGRAM VIDEO CLICKED ===');
+          console.log('Item data:', item);
+          console.log('Opening Instagram URL:', item.src);
+          
+          // Open Instagram profile in new tab
           window.open(item.src, '_blank');
         });
       } else {
@@ -715,7 +878,7 @@ function renderResultsInline(type) {
         // Add click event directly when creating the image
         node.addEventListener('click', () => {
           console.log('Design image clicked:', item.src, item.title);
-          openImageModal(item.src, item.alt || '', item.title || '', item);
+          openImageModal(item.src, item.title || '', item.description || '', item);
         });
       }
       
@@ -726,7 +889,7 @@ function renderResultsInline(type) {
   }
   
   // Only bind video preview events, images already have click handlers
-  bindVideoPreview();
+  // bindVideoPreview(); // This line is removed as per the edit hint
   
   console.log('Portfolio results rendered for type:', type);
 }
@@ -1029,7 +1192,7 @@ function initTestButton() {
       };
       
       console.log('Testing with item:', testItem);
-      openImageModal(testItem.src, testItem.alt, testItem.title, testItem);
+      openImageModal(testItem.src, testItem.title, testItem.description, testItem);
     });
     console.log('Test button initialized');
   } else {
