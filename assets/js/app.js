@@ -110,7 +110,7 @@ const cvData = {
       ]
     },
     {
-      title: 'National Childrens Day 2022 Celebration (Garut Regency)',
+      title: 'National Children Day 2022 Celebration (Garut Regency)',
       items: [
         {
           org: 'Event Director – Escape Room Event',
@@ -848,7 +848,7 @@ function renderResultsInline(type) {
         node.style.borderRadius = '8px';
         
         // Use a placeholder image for Instagram
-        const thumbnailUrl = 'Photo/instagram.png';
+        const thumbnailUrl = 'Photo/Instagram.png';
         
         node.innerHTML = `
           <img src="${thumbnailUrl}" alt="Instagram Video Cover" style="width: 100%; height: 200px; object-fit: cover;">
