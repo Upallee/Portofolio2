@@ -65,3 +65,4 @@ Photo/
 - Logo yang tidak ada akan menampilkan error image
 - Pastikan semua logo sudah ditambahkan sebelum deploy
 - Logo akan otomatis responsive di berbagai ukuran layar
+
